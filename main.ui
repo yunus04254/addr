@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>842</width>
+    <height>517</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;addr&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>70</y>
+      <width>331</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="mdVerticalLayout">
+     <item>
+      <layout class="QGridLayout" name="mdGridLayout">
+       <item row="5" column="0">
+        <widget class="QLabel" name="yearLabel">
+         <property name="text">
+          <string>year</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="artistLabel">
+         <property name="text">
+          <string>artist</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="titleLabel">
+         <property name="text">
+          <string>title</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="yearField"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="genreField"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="trackLabel">
+         <property name="text">
+          <string>track</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="albumArtistField"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="trackField"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="titleField"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="artistField"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="albumArtistLabel">
+         <property name="text">
+          <string>album artist</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="albumField"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="albumLabel">
+         <property name="text">
+          <string>album</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="genreLabel">
+         <property name="text">
+          <string>genre</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="explicitBox">
+       <property name="text">
+        <string>Explicit?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="explicitSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>1</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>380</y>
+      <width>281</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="buttonVerticalLayout">
+     <item>
+      <widget class="QPushButton" name="saveButton">
+       <property name="text">
+        <string>Save Changes</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="uploadButton">
+       <property name="text">
+        <string>Add to Apple Music</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>441</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="ddLayout"/>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>titleField</tabstop>
+  <tabstop>artistField</tabstop>
+  <tabstop>albumField</tabstop>
+  <tabstop>albumArtistField</tabstop>
+  <tabstop>genreField</tabstop>
+  <tabstop>yearField</tabstop>
+  <tabstop>trackField</tabstop>
+  <tabstop>explicitBox</tabstop>
+  <tabstop>saveButton</tabstop>
+  <tabstop>uploadButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
