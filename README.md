@@ -1,7 +1,7 @@
 # addr: Audio Metadata Editor
 
 ## Screenshots
-![addr](https://github.com/yunus04254/addr/assets/146735322/796c064f-e7c5-4b51-a4dc-97fd39298926)
+![addr](https://github.com/yunus04254/addr/assets/146735322/d00a0ec3-d149-4670-a3a9-64153c256fb9)
 
 ## Description
 addr is an audio metadata editor designed to help you manage your audio files efficiently. It allows you to edit song metadata, convert audio files to the .m4a format, and more.
