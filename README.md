@@ -1,7 +1,7 @@
-# addr: Audio Metadata Organiser
+# addr: Audio Metadata Editor
 
 ## Description
-addr is an audio metadata organizer designed to help you manage your audio files efficiently. It allows you to edit song metadata, convert audio files to the .m4a format, and more.
+addr is an audio metadata editor designed to help you manage your audio files efficiently. It allows you to edit song metadata, convert audio files to the .m4a format, and more.
 
 ## Table of Contents
 - [Features](#features)
