@@ -19,8 +19,6 @@ addr is an audio metadata editor designed to help you manage your audio files ef
 - **Explicit Marking:** Option to mark songs as explicit.
 - **Save Metadata:** Save edited metadata to audio files.
 
-## Getting Started
-
 ### Prerequisites
 
 - Python 3.x
